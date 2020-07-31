@@ -9,3 +9,6 @@ Esse repositório contem o projeto realizado na imersão Alura, com as modifica�
 npm install
 npm start
 ```
+
+###Nesse progeto foram utilizados os seguintes pacotes:
+* [concurrently][https://www.npmjs.com/package/concurrently]
