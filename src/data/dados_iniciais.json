@@ -102,6 +102,10 @@
 		{
 			"titulo": "Filmes",
 			"cor": "orange",
+			"link_extra": {
+				"text": "Formação de Jogos na Alura",
+				"url": "https://www.alura.com.br/formacao-jogos-unity"
+			},
 			"videos": [
 				{
 					"titulo": "Interestellar",

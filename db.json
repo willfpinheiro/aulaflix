@@ -30,7 +30,11 @@
     {
       "id": 4,
       "titulo": "Filmes",
-      "cor": "orange"
+      "cor": "orange",
+      "link_extra": {
+        "text": "Cursos de Data Science na Alura",
+        "url": "https://www.alura.com.br/cursos-online-mobile"
+      }
     },
     {
       "id": 5,
@@ -186,12 +190,6 @@
       "categoriaId": 5,
       "titulo": "Resident Evil 8",
       "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-    },
-    {
-      "id": 25
-    },
-    {
-      "id": 26
     },
     {
       "titulo": "Video padrão",

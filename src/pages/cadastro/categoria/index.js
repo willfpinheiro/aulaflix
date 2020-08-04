@@ -46,7 +46,7 @@ function CadastroCategoria() {
         }}
       >
         <FormField
-          label="Titulo da Categoria: "
+          label="Titulo da Categoria"
           type="text"
           name="titulo"
           value={values.titulo}
@@ -54,7 +54,7 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Descrição: "
+          label="Descrição"
           type="textarea"
           name="descricao"
           value={values.descricao}
@@ -79,11 +79,16 @@ function CadastroCategoria() {
         )}
 
       </form>
-      <ul>
-        {categorias.map((categoria) => (
-          <li key={`${categoria.titulo}`}>{categoria.titulo}</li>
-        ))}
-      </ul>
+      {categorias.map((categoria) => (
+        <table>
+          {/* <th>
+            <td key={`${categoria.link_extra.text}`}>{categoria.link_extra.text}</td>
+          </th> */}
+          <th>
+            <td key={`${categoria.titulo}`}>{categoria.titulo}</td>
+          </th>
+        </table>
+      ))}
       <Link to="/">Ir pra Home</Link>
     </PageDefault>
   );
